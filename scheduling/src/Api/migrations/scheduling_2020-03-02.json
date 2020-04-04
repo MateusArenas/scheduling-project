@@ -1,0 +1,33 @@
+{
+    "Table": "scheduling",
+    "Content": {
+        "id": {
+            "type": "INTEGER",
+            "primaryKey": true,
+            "autoIncrement": true
+        },
+        "status": {
+            "type": "STRING",
+            "allowNull": true,
+            "defaultValue": "Mateus"
+        },
+        "userId": {
+            "type": "INTEGER",
+            "allowNull": true
+        },
+        "date": {
+            "type": "DATE",
+            "allowNull": false
+        },
+        "createAt": {
+            "type": "DATE",
+            "allowNull": true,
+            "currentDate": true
+        },
+        "updateAt": {
+            "type": "DATE",
+            "allowNull": true,
+            "currentDate": true
+        }
+    }
+}

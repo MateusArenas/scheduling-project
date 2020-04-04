@@ -1,0 +1,4 @@
+CREATE TABLE table_name (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(255) NULL DEFAULT 'Mateus'
+);

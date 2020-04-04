@@ -1,0 +1,27 @@
+{
+    "name": "mateu/scheduling",
+    "authors": [
+        {
+            "name": "MateusArenas",
+            "email": "MateusArenas97@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^2.6",
+        "illuminate/database": "^5.1",
+        "robmorgan/phinx": "^0.4.4",
+        "kylekatarnls/laravel-carbon-2": "^1.0.0",
+        "nesbot/carbon": "^2.16"
+    },
+    "autoload": {
+        "psr-4": {
+            ".\\src\\": "Api"
+        },
+        "classmap": [
+            ".\\src\\Api\\migrations"
+        ]
+    },
+    "config": {
+        "bin-dir": "scripts"
+    }
+}

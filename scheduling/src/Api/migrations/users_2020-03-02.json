@@ -1,0 +1,40 @@
+{
+    "Table": "users",
+    "Content": {
+        "id": {
+            "type": "INTEGER",
+            "primaryKey": true,
+            "autoIncrement": true
+        },
+        "name": {
+            "type": "STRING",
+            "allowNull": true,
+            "defaultValue": "Mateus"
+        },
+        "password": {
+            "type": "STRING",
+            "allowNull": false,
+            "defaultValue": "Mateus"
+        },
+        "cpf": {
+            "type": "STRING",
+            "allowNull": false,
+            "defaultValue": "Mateus"
+        },
+        "rg": {
+            "type": "STRING",
+            "allowNull": false,
+            "defaultValue": "Mateus"
+        },
+        "createAt": {
+            "type": "DATE",
+            "allowNull": true,
+            "currentDate": true
+        },
+        "updateAt": {
+            "type": "DATE",
+            "allowNull": true,
+            "currentDate": true
+        }
+    }
+}

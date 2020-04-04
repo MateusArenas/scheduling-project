@@ -1,0 +1,16 @@
+{
+  "prod": {
+    "HOST": "drattoolog.deoxus.com.br",
+    "USUARIO": "deoxus52_rodrigo",
+    "SENHA": "rodrigo",
+    "DB": "deoxus52_db_draco",
+    "describe": "//is productions db paramters"
+   },
+  "dev": {
+    "HOST": "localhost",
+    "USUARIO": "root",
+    "SENHA": "",
+    "DB": "deoxus52_db_draco",
+    "describe": "//is development db paramtes"
+  }
+}

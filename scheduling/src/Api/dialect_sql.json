@@ -1,0 +1,31 @@
+{
+  "type": {
+    "STRING": "VARCHAR(255)",
+    "INTEGER": "INT",
+    "FLOAT": "DOUBLE",
+    "DATE": "TIMESTAMP",
+    "BOOLEAN": "BOOLEAN"
+  },
+  "primaryKey": {
+    "true": "PRIMARY KEY",
+    "false": ""
+  },
+  "negative": {
+    "false": "UNSIGNED",
+    "true": ""
+  },
+  "autoIncrement": { 
+    "true": "AUTO_INCREMENT",
+    "false": ""
+  },
+  "allowNull": {
+    "false": "NOT NULL",
+    "true": "NULL"
+  },
+  "defaultValue": {
+    "..." : "DEFAULT '...'"
+  },
+  "currentDate": {
+    "true" : "DEFAULT CURRENT_DATE"
+  }
+}

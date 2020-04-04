@@ -1,0 +1,25 @@
+{
+  "Table": "table_name",
+  "Content": {
+        "id": {
+            "type": "INTEGER",
+            "primaryKey": true,
+            "autoIncrement": true
+        },
+        "name": {
+            "type": "STRING",
+            "allowNull": true,
+            "defaultValue": "Mateus"
+        },
+        "createAt": {
+            "type": "DATE",
+            "allowNull": true,
+            "defaultValue": "CURRENT_DATE"
+        },
+        "updateAt": {
+            "type": "DATE",
+            "allowNull": true,
+            "defaultValue": "CURRENT_DATE"
+        }
+  }
+}
